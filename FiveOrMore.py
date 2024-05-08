@@ -62,7 +62,7 @@ def draw_board():
         'B': (0, 0, 255),    # Blue
         'Y': (255, 255, 0),  # Yellow
         'M': (255, 0, 255),  # Magenta
-        'T': (64, 224, 208),    # Turquoise
+        'T': (64, 224, 208), # Turquoise
         'O': (255, 165, 0)   # Orange
     }
 
@@ -238,7 +238,7 @@ while running:
 
     # Check if the game is over
     if is_game_over():
-        print("Game Over!")
+        print("Game Over! Score = ", score)
         running = False
 
     clock.tick(30)  # Limit frame rate to 30 FPS

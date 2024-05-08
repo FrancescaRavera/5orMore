@@ -18,7 +18,7 @@ This project is a simple ball matching game implemented using Python and Pygame.
 ### Game Rules
 
 - Balls of the same color can be moved horizontally or vertically to align them.
-- Aligning at least four balls of the same color in a row or column will remove them from the board and earn points.
+- Aligning at least 5 balls of the same color in a row or column will remove them from the board and earn points.
 - The game ends when no valid moves are left.
 
 ## Gameplay Controls
